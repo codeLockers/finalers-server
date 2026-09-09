@@ -4,14 +4,14 @@
       "name": "Baichuan2 7B Chat",
       "providerZh": "百川智能",
       "providerEn": "Baichuan",
-      "quantization": "Q4_K_M",
-      "size": "4.2 GB",
+      "quantization": "Q4_K_S",
+      "size": "4.1 GB",
       "descriptionZh": "百川开源中文大模型，中文对话与知识问答表现出色。",
       "descriptionEn": "Open-source Chinese LLM from Baichuan, excelling at Chinese dialogue and knowledge QA.",
       "score": 9.0,
-      "domesticMirrorUrl": "https://www.modelscope.cn/models/mock/baichuan2-7b-chat-q4_k_m.gguf",
-      "overseasMirrorUrl": "https://huggingface.co/mock/baichuan2-7b-chat-q4_k_m.gguf",
-      "homepageUrl": "https://huggingface.co/mock/baichuan2-7b-chat-q4_k_m"
+      "domesticMirrorUrl": "https://www.modelscope.cn/models/shaowenchen/baichuan2-7b-chat-gguf/resolve/master/baichuan2-7b-chat.Q4_K_S.gguf",
+      "overseasMirrorUrl": "https://huggingface.co/shaowenchen/baichuan2-7b-chat-gguf/resolve/main/baichuan2-7b-chat.Q4_K_S.gguf",
+      "homepageUrl": "https://huggingface.co/shaowenchen/baichuan2-7b-chat-gguf"
     },
     {
       "name": "ChatGLM3 6B",
@@ -23,7 +23,7 @@
       "descriptionEn": "Open-source bilingual model from Zhipu, supporting tool calling and multi-turn dialogue.",
       "score": 8.7,
       "domesticMirrorUrl": null,
-      "overseasMirrorUrl": "https://huggingface.co/mock/chatglm3-6b-q4_k_m.gguf",
+      "overseasMirrorUrl": null,
       "homepageUrl": "https://huggingface.co/mock/chatglm3-6b-q4_k_m"
     },
     {
