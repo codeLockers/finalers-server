@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "name": "Baichuan2 7B Chat",
+      "name": "Baichuan2 7B Chat(可下载)",
       "providerZh": "百川智能",
       "providerEn": "Baichuan",
       "quantization": "Q4_K_S",
