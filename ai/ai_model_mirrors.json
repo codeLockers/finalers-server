@@ -1,0 +1,124 @@
+{
+    "mirrors": [
+        {
+            "id": "llama-3.1-8b-instruct-q4",
+            "descriptionZh": "高性能桌面级 8B 指令模型",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
+        },
+        {
+            "id": "mistral-nemo-12b-instruct-q4",
+            "descriptionZh": "强大的桌面级 12B 模型，支持超长上下文窗口",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/Mistral-Nemo-Instruct-2407-GGUF/resolve/main/Mistral-Nemo-Instruct-2407-Q4_K_M.gguf"
+        },
+        {
+            "id": "llama-3.2-1b-instruct-q4",
+            "descriptionZh": "快速高效的指令微调模型",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_K_M.gguf"
+        },
+        {
+            "id": "phi-3.5-mini-instruct-q4",
+            "descriptionZh": "微软出品的高质量推理模型",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q4_K_M.gguf"
+        },
+        {
+            "id": "gemma-2-2b-instruct-q4",
+            "descriptionZh": "Google 出品的高效指令模型",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/gemma-2-2b-it-GGUF/resolve/main/gemma-2-2b-it-Q4_K_M.gguf"
+        },
+        {
+            "id": "tinyllama-1.1b-chat-q4",
+            "descriptionZh": "超快速的轻量级对话模型",
+            "mirrorUrl": "https://hf-mirror.com/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"
+        },
+        {
+            "id": "qwen3-0.6b-q4",
+            "descriptionZh": "紧凑型模型，原生支持工具调用",
+            "mirrorUrl": "https://hf-mirror.com/unsloth/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf"
+        },
+        {
+            "id": "smolvlm2-500m-video-instruct-q8",
+            "descriptionZh": "支持图像与视频理解的视觉模型，可用于图像描述",
+            "mirrorUrl": "https://hf-mirror.com/ggml-org/SmolVLM2-500M-Video-Instruct-GGUF/resolve/main/SmolVLM2-500M-Video-Instruct-Q8_0.gguf"
+        },
+        {
+            "id": "smolvlm2-500m-mmproj-f16",
+            "descriptionZh": "SmolVLM2 视觉模型的多模态投影器",
+            "mirrorUrl": "https://hf-mirror.com/ggml-org/SmolVLM2-500M-Video-Instruct-GGUF/resolve/main/mmproj-SmolVLM2-500M-Video-Instruct-f16.gguf"
+        },
+        {
+            "id": "llava-1.6-mistral-7b-mmproj-f16",
+            "descriptionZh": "LLaVA 1.6 Mistral 7B 的多模态投影器",
+            "mirrorUrl": "https://hf-mirror.com/cjpais/llava-1.6-mistral-7b-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        {
+            "id": "qwen2-vl-7b-mmproj-f16",
+            "descriptionZh": "Qwen2-VL 7B 的多模态投影器",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/Qwen2-VL-7B-Instruct-GGUF/resolve/main/mmproj-Qwen2-VL-7B-Instruct-f16.gguf"
+        },
+        {
+            "id": "whisper-tiny-en",
+            "descriptionZh": "快速的英语语音识别，内存占用低",
+            "mirrorUrl": "https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main/ggml-tiny.en.bin"
+        },
+        {
+            "id": "whisper-base-en",
+            "descriptionZh": "更高精度的英语语音识别",
+            "mirrorUrl": "https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin"
+        },
+        {
+            "id": "whisper-small-multilingual",
+            "descriptionZh": "支持 50 多种语言的语音转文字，精度良好",
+            "mirrorUrl": "https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main/ggml-small.bin"
+        },
+        {
+            "id": "whisper-medium-multilingual",
+            "descriptionZh": "面向 macOS 的生产级多语言语音转文字",
+            "mirrorUrl": "https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin"
+        },
+        {
+            "id": "whisper-large-v3-multilingual",
+            "descriptionZh": "支持 100 种语言的最先进语音转文字，需 8GB 以上内存的 Mac",
+            "mirrorUrl": "https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin"
+        },
+        {
+            "id": "nomic-embed-text-v1.5-f16",
+            "descriptionZh": "面向 macOS RAG 的 768 维高质量向量嵌入",
+            "mirrorUrl": "https://hf-mirror.com/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf"
+        },
+        {
+            "id": "sd-v2-1-turbo-q8",
+            "descriptionZh": "基于 Stable Diffusion 的 1-4 步快速 512×512 图像生成",
+            "mirrorUrl": "https://hf-mirror.com/Green-Sky/SD-Turbo-GGUF/resolve/main/sd_turbo-f16-q8_0.gguf"
+        },
+        {
+            "id": "flux-1-schnell-q4",
+            "descriptionZh": "最先进的 4 步文生图，需 16GB 以上内存的 Mac",
+            "mirrorUrl": "https://hf-mirror.com/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q4_0.gguf"
+        },
+        {
+            "id": "llava-1.6-mistral-7b-q4",
+            "descriptionZh": "最先进的 7B 视觉语言模型，可进行精细的图像理解",
+            "mirrorUrl": "https://hf-mirror.com/cjpais/llava-1.6-mistral-7b-gguf/resolve/main/llava-v1.6-mistral-7b.Q4_K_M.gguf"
+        },
+        {
+            "id": "qwen2-vl-7b-instruct-q4",
+            "descriptionZh": "专业的视觉语言模型，具备强大的 OCR 与屏幕识别能力",
+            "mirrorUrl": "https://hf-mirror.com/bartowski/Qwen2-VL-7B-Instruct-GGUF/resolve/main/Qwen2-VL-7B-Instruct-Q4_K_M.gguf"
+        },
+        {
+            "id": "all-minilm-l6-v2-f16",
+            "descriptionZh": "面向 macOS 的轻量级句向量嵌入模型（384 维）",
+            "mirrorUrl": "https://hf-mirror.com/leliuga/all-MiniLM-L6-v2-GGUF/resolve/main/all-MiniLM-L6-v2.F16.gguf"
+        },
+        {
+            "id": "mxbai-embed-large-v1-f16",
+            "descriptionZh": "最先进的 1024 维向量嵌入，适用于复杂 RAG",
+            "mirrorUrl": "https://hf-mirror.com/ChristianAzinn/mxbai-embed-large-v1-gguf/resolve/main/mxbai-embed-large-v1_fp16.gguf"
+        },
+        {
+            "id": "sdxl-turbo-fp16",
+            "descriptionZh": "面向 macOS 的 1024×1024 高质量 4 步图像生成",
+            "mirrorUrl": "https://hf-mirror.com/stabilityai/sdxl-turbo/resolve/main/sd_xl_turbo_1.0_fp16.safetensors"
+        }
+    ]
+}
