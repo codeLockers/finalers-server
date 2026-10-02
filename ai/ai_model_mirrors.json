@@ -1,5 +1,5 @@
 {
-    "mirrors": [
+    "data": [
         {
             "id": "qwen3-0.6b-q4",
             "descriptionZh": "紧凑型模型，原生支持工具调用",
