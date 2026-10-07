@@ -5,130 +5,184 @@
       "name": "Qwen3.5 0.8B",
       "sizeBytes": 532517120,
       "description": "Ultra-light Qwen3.5 model for basic Chinese chat",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
       "parametersB": 0.8,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct"],
-      "family": "qwen3.5"
+      "capabilities": [
+        "chat",
+        "instruct"
+      ],
+      "family": "qwen3.5",
+      "descriptionZh": "超轻量 Qwen3.5 模型，适合基础中文对话",
+      "device": "low"
     },
     {
       "id": "minicpm5-1b-q4",
       "name": "MiniCPM5 1B",
       "sizeBytes": 688067168,
       "description": "Edge-optimized 1B model with strong Chinese and tool support",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/DhruvalLabs/MiniCPM5-1B-GGUF/resolve/main/MiniCPM5-1B-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 1.0,
+      "parametersB": 1,
       "maxContextLength": 131072,
-      "capabilities": ["chat", "instruct", "tool-calling"],
-      "family": "minicpm5"
+      "capabilities": [
+        "chat",
+        "instruct",
+        "tool-calling"
+      ],
+      "family": "minicpm5",
+      "descriptionZh": "端侧优化的 1B 模型，中文与工具调用能力强",
+      "device": "low"
     },
     {
       "id": "hunyuan-1.8b-instruct-q4",
       "name": "Hunyuan 1.8B Instruct",
       "sizeBytes": 1133085024,
       "description": "Compact Tencent model with solid Chinese chat ability",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/mradermacher/Hunyuan-1.8B-Instruct-GGUF/resolve/main/Hunyuan-1.8B-Instruct.Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
       "parametersB": 1.8,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct"],
-      "family": "hunyuan"
+      "capabilities": [
+        "chat",
+        "instruct"
+      ],
+      "family": "hunyuan",
+      "descriptionZh": "腾讯出品的紧凑模型，中文对话能力扎实",
+      "device": "low"
     },
     {
       "id": "qwen3.5-2b-q4",
       "name": "Qwen3.5 2B",
       "sizeBytes": 1280835840,
       "description": "Balanced 2B model with strong Chinese capabilities",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 2.0,
+      "parametersB": 2,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct"],
-      "family": "qwen3.5"
+      "capabilities": [
+        "chat",
+        "instruct"
+      ],
+      "family": "qwen3.5",
+      "descriptionZh": "均衡的 2B 模型，中文能力出色",
+      "device": "middle"
     },
     {
       "id": "minicpm3-4b-q4",
       "name": "MiniCPM3 4B",
       "sizeBytes": 2469799904,
       "description": "4B model from OpenBMB with solid Chinese performance",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/mradermacher/MiniCPM3-4B-i1-GGUF/resolve/main/MiniCPM3-4B.i1-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 4.0,
+      "parametersB": 4,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct"],
-      "family": "minicpm3"
+      "capabilities": [
+        "chat",
+        "instruct"
+      ],
+      "family": "minicpm3",
+      "descriptionZh": "面壁（OpenBMB）出品的 4B 模型，中文表现稳健",
+      "device": "middle"
     },
     {
       "id": "hunyuan-4b-instruct-q4",
       "name": "Hunyuan 4B Instruct",
       "sizeBytes": 2607709696,
       "description": "4B Tencent model for higher quality Chinese responses",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/bartowski/tencent_Hunyuan-4B-Instruct-GGUF/resolve/main/tencent_Hunyuan-4B-Instruct-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 4.0,
+      "parametersB": 4,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct"],
-      "family": "hunyuan"
+      "capabilities": [
+        "chat",
+        "instruct"
+      ],
+      "family": "hunyuan",
+      "descriptionZh": "腾讯 4B 模型，中文回复质量更高",
+      "device": "middle"
     },
     {
       "id": "qwen3.5-4b-q4",
       "name": "Qwen3.5 4B",
       "sizeBytes": 2740937888,
       "description": "High-performance 4B model, best balance on mobile",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 4.0,
+      "parametersB": 4,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct", "tool-calling"],
-      "family": "qwen3.5"
+      "capabilities": [
+        "chat",
+        "instruct",
+        "tool-calling"
+      ],
+      "family": "qwen3.5",
+      "descriptionZh": "高性能 4B 模型，移动端均衡之选",
+      "device": "middle"
     },
     {
       "id": "deepseek-r1-distill-qwen-7b-q4",
       "name": "DeepSeek R1 Distill Qwen 7B",
       "sizeBytes": 4683073248,
       "description": "7B reasoning model for logic-heavy Chinese tasks (slower)",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/unsloth/DeepSeek-R1-Distill-Qwen-7B-GGUF/resolve/main/DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 7.0,
+      "parametersB": 7,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct", "reasoning"],
-      "family": "deepseek"
+      "capabilities": [
+        "chat",
+        "instruct",
+        "reasoning"
+      ],
+      "family": "deepseek",
+      "descriptionZh": "7B 推理模型，擅长逻辑类中文任务（生成较慢）",
+      "device": "high"
     },
     {
       "id": "qwen2.5-7b-instruct-q4",
       "name": "Qwen2.5 7B Instruct",
       "sizeBytes": 4683074240,
       "description": "Battle-tested 7B Chinese model, best quality for flagship phones",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/bartowski/Qwen2.5-7B-Instruct-GGUF/resolve/main/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 7.0,
+      "parametersB": 7,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct"],
-      "family": "qwen2.5"
+      "capabilities": [
+        "chat",
+        "instruct"
+      ],
+      "family": "qwen2.5",
+      "descriptionZh": "久经考验的 7B 中文模型，旗舰手机首选",
+      "device": "high"
     },
     {
       "id": "qwen3-8b-q4",
       "name": "Qwen3 8B",
       "sizeBytes": 5027784512,
       "description": "Next-gen 8B model with strong Chinese and tool-calling",
-      "downloadUrl": null,
+      "downloadUrl": "https://hf-mirror.com/unsloth/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
-      "parametersB": 8.0,
+      "parametersB": 8,
       "maxContextLength": 32768,
-      "capabilities": ["chat", "instruct", "tool-calling"],
-      "family": "qwen3"
+      "capabilities": [
+        "chat",
+        "instruct",
+        "tool-calling"
+      ],
+      "family": "qwen3",
+      "descriptionZh": "新一代 8B 模型，中文与工具调用能力突出",
+      "device": "flagship"
     }
   ]
 }
