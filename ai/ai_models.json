@@ -38,6 +38,23 @@
       "device": "low"
     },
     {
+      "id": "intento-v1-edge",
+      "name": "Intento v1 Edge",
+      "sizeBytes": 522284,
+      "description": "Ultra-compressed 5-language intent classifier (101 intents) for edge devices",
+      "downloadUrl": "https://hf-mirror.com/luigicfilho/intento-v1-edge/resolve/main/model.safetensors",
+      "format": "SafeTensors",
+      "quantization": "int4_packed",
+      "parametersB": 0.001,
+      "maxContextLength": 64,
+      "capabilities": [
+        "intent-classification"
+      ],
+      "family": "intento",
+      "descriptionZh": "超轻量端侧意图分类模型，支持 5 种语言、101 类意图，int4 量化权重仅约 500 kB",
+      "device": "low"
+    },
+    {
       "id": "hunyuan-1.8b-instruct-q4",
       "name": "Hunyuan 1.8B Instruct",
       "sizeBytes": 1133085024,
