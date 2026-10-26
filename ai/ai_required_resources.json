@@ -26,7 +26,7 @@
         "name": "Finalers Mobile FastText",
         "sizeBytes": 573992,
         "description": "Self-trained 2-class fastText text classifier (accounting / unknown) packed into a 574 kB on-device .ftz",
-        "downloadUrl": "https://github.com/codeLockers/finalers-models/releases/download/v0.0.1/finalers_mobile.ftz",
+        "downloadUrl": "https://gh-proxy.com/https://github.com/codeLockers/finalers-models/releases/download/v0.0.1/finalers_mobile.ftz",
         "format": "FastText",
         "quantization": "product-quantized (dsub=2)",
         "parametersB": 0.001,
