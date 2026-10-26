@@ -39,6 +39,24 @@
         "device": "low",
         "isRequired": true,
         "version": "1.0.1"
+      },
+      {
+        "id": "finalers-mobile-fasttext",
+        "name": "Finalers Mobile FastText",
+        "sizeBytes": 573992,
+        "description": "Self-trained 2-class fastText text classifier (accounting / unknown) packed into a 574 kB on-device .ftz",
+        "downloadUrl": "https://github.com/codeLockers/finalers-models/releases/download/v0.0.1/finalers_mobile.ftz",
+        "format": "FastText",
+        "quantization": "product-quantized (dsub=2)",
+        "parametersB": 0.001,
+        "capabilities": [
+          "intent-classification"
+        ],
+        "family": "fasttext",
+        "descriptionZh": "自训练的端侧 fastText 意图分类模型（accounting / unknown 二分类），乘积量化后仅 0.55 MB，纯 CPU 离线推理",
+        "device": "low",
+        "isRequired": true,
+        "version": "0.0.1"
       }
     ]
   }
