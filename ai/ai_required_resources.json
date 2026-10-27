@@ -2,26 +2,6 @@
   "data": {
     "models": [
       {
-        "id": "qwen3.5-0.8b-q4",
-        "name": "Qwen3.5 0.8B",
-        "sizeBytes": 532517120,
-        "description": "Ultra-light Qwen3.5 model for basic Chinese chat",
-        "downloadUrl": "https://hf-mirror.com/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q4_K_M.gguf",
-        "format": "GGUF",
-        "quantization": "Q4_K_M",
-        "parametersB": 0.8,
-        "maxContextLength": 32768,
-        "capabilities": [
-          "chat",
-          "instruct"
-        ],
-        "family": "qwen3.5",
-        "descriptionZh": "超轻量 Qwen3.5 模型，适合基础中文对话",
-        "device": "low",
-        "isRequired": true,
-        "version": "1.0.2"
-      },
-      {
         "id": "finalers-mobile-fasttext",
         "name": "Finalers Mobile FastText",
         "sizeBytes": 573992,
