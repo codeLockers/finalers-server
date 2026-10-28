@@ -18,6 +18,27 @@
         "device": "low",
         "isRequired": true,
         "version": "0.0.1"
+      },
+      {
+        "id": "qwen3-0.6b-q4",
+        "name": "Qwen3 0.6B",
+        "sizeBytes": 396705472,
+        "description": "Ultra-compact Qwen3 0.6B model with native tool-calling support, used for toolchain orchestration and function calling",
+        "downloadUrl": "https://hf-mirror.com/unsloth/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf",
+        "format": "GGUF",
+        "quantization": "Q4_K_M",
+        "parametersB": 0.6,
+        "maxContextLength": 32768,
+        "capabilities": [
+          "chat",
+          "instruct",
+          "tool-calling"
+        ],
+        "family": "qwen3",
+        "descriptionZh": "超轻量 Qwen3 0.6B 模型，原生支持工具调用，用于工具链编排与函数调用场景，Q4_K_M 量化后约 378 MB",
+        "device": "low",
+        "isRequired": true,
+        "version": "0.0.1"
       }
     ]
   }
