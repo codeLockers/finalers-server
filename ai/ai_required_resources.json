@@ -35,7 +35,8 @@
         "family": "qwen3",
         "descriptionZh": "超轻量 Qwen3 0.6B 模型，原生支持工具调用，用于工具链编排与函数调用场景，Q4_K_M 量化后约 378 MB",
         "device": "low",
-        "isRequired": true
+        "isRequired": true,
+        "version": "0.0.1"
       }
     ]
   }
