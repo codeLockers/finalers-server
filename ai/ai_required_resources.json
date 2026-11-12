@@ -39,7 +39,7 @@
         "descriptionZh": "超轻量 Qwen3 0.6B 模型，原生支持工具调用，用于工具链编排与函数调用场景，Q4_K_M 量化后约 378 MB",
         "device": "low",
         "isRequired": true,
-        "version": "0.0.1",
+        "version": "0.0.2",
         "requiredAppVersion": "2.0.0",
         "changelogZh": "• 首次发版：Qwen3 0.6B Q4_K_M，量化后约 378 MB\n• 原生支持工具调用，用于工具链编排与函数调用场景\n• 上下文长度 4096，低端设备可流畅运行\n• 适配客户端 2.0.0 的必装资源与版本校验",
         "changelogEn": "• Initial release: Qwen3 0.6B Q4_K_M, ~378 MB after quantization\n• Native tool-calling support for toolchain orchestration and function calling\n• 4K context length, runs smoothly on low-end devices\n• Aligned with app 2.0.0 required-resource and version checks"
