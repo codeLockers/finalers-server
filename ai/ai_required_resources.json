@@ -17,7 +17,10 @@
         "descriptionZh": "自训练的端侧 fastText 意图分类模型（accounting / unknown 二分类），乘积量化后仅 0.55 MB，纯 CPU 离线推理",
         "device": "low",
         "isRequired": true,
-        "version": "0.0.1"
+        "version": "0.0.2",
+        "requiredAppVersion": "2.0.0",
+        "changelogZh": "• 更新端侧 fastText 意图分类模型（accounting / unknown 二分类）\n• 保持 0.55 MB 体积，乘积量化（dsub=2），纯 CPU 离线推理\n• 适配客户端 2.0.0 的必装资源与版本校验",
+        "changelogEn": "• Updated on-device fastText intent classifier (accounting / unknown, 2-class)\n• Keeps the 0.55 MB footprint via product quantization (dsub=2), pure CPU offline inference\n• Aligned with app 2.0.0 required-resource and version checks"
       },
       {
         "id": "qwen3-0.6b-q4",
@@ -36,7 +39,10 @@
         "descriptionZh": "超轻量 Qwen3 0.6B 模型，原生支持工具调用，用于工具链编排与函数调用场景，Q4_K_M 量化后约 378 MB",
         "device": "low",
         "isRequired": true,
-        "version": "0.0.1"
+        "version": "0.0.1",
+        "requiredAppVersion": "2.0.0",
+        "changelogZh": "• 首次发版：Qwen3 0.6B Q4_K_M，量化后约 378 MB\n• 原生支持工具调用，用于工具链编排与函数调用场景\n• 上下文长度 4096，低端设备可流畅运行\n• 适配客户端 2.0.0 的必装资源与版本校验",
+        "changelogEn": "• Initial release: Qwen3 0.6B Q4_K_M, ~378 MB after quantization\n• Native tool-calling support for toolchain orchestration and function calling\n• 4K context length, runs smoothly on low-end devices\n• Aligned with app 2.0.0 required-resource and version checks"
       }
     ]
   }
