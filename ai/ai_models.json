@@ -17,6 +17,23 @@
       "family": "hunyuan",
       "descriptionZh": "腾讯出品的紧凑模型，中文对话能力扎实",
       "device": "low"
+    },
+    {
+      "id": "qwen3-1.7b-q4",
+      "name": "Qwen3 1.7B",
+      "sizeBytes": 1107409472,
+      "description": "Balanced Qwen3 1.7B model with strong multilingual chat and reasoning ability",
+      "downloadUrl": "https://modelscope.cn/models/unsloth/Qwen3-1.7B-GGUF/resolve/master/Qwen3-1.7B-Q4_K_M.gguf",
+      "format": "GGUF",
+      "quantization": "Q4_K_M",
+      "parametersB": 1.7,
+      "maxContextLength": 40960,
+      "capabilities": [
+        "tool-calling"
+      ],
+      "family": "qwen3",
+      "descriptionZh": "Qwen3 1.7B 均衡型模型，多语言对话与推理能力出色，Q4_K_M 量化后约 1.1 GB",
+      "device": "low"
     }
   ]
 }
