@@ -33,7 +33,7 @@
         {
             "id": "hunyuan-1.8b-instruct-q4",
             "descriptionZh": "腾讯出品的紧凑模型，中文对话能力扎实",
-            "mirrorUrl": "https://hf-mirror.com/mradermacher/Hunyuan-1.8B-Instruct-GGUF/resolve/main/Hunyuan-1.8B-Instruct.Q4_K_M.gguf",
+            "mirrorUrl": "https://modelscope.cn/models/bartowski/tencent_Hunyuan-1.8B-Instruct-GGUF/resolve/master/tencent_Hunyuan-1.8B-Instruct-Q4_K_M.gguf",
             "device": "low"
         },
         {

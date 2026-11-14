@@ -3,13 +3,13 @@
     {
       "id": "hunyuan-1.8b-instruct-q4",
       "name": "Hunyuan 1.8B Instruct",
-      "sizeBytes": 1133085024,
+      "sizeBytes": 1133084864,
       "description": "Compact Tencent model with solid Chinese chat ability",
-      "downloadUrl": "https://hf-mirror.com/mradermacher/Hunyuan-1.8B-Instruct-GGUF/resolve/main/Hunyuan-1.8B-Instruct.Q4_K_M.gguf",
+      "downloadUrl": "https://modelscope.cn/models/bartowski/tencent_Hunyuan-1.8B-Instruct-GGUF/resolve/master/tencent_Hunyuan-1.8B-Instruct-Q4_K_M.gguf",
       "format": "GGUF",
       "quantization": "Q4_K_M",
       "parametersB": 1.8,
-      "maxContextLength": 32768,
+      "maxContextLength": 262144,
       "capabilities": [
         "chat",
         "instruct"
